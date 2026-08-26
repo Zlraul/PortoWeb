@@ -1,0 +1,1340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zaul — Game Developer, Programmer & Audio Creator</title>
+  <meta name="description"
+    content="Personal space of Zaul — College student, Godot 4 game developer, programmer, and audio creator engineering custom physics, gameplay mechanics, and interactive software.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" rel="stylesheet">
+
+  <!-- Custom Creative Light Theme CSS -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Floating Navigation Dock -->
+  <header class="navbar-floating">
+    <div class="nav-pill-container">
+      <a class="nav-brand-playful" href="#home">
+        <span></span> &lt;ZaulDev /&gt;
+      </a>
+
+      <ul class="nav-links-wrap d-none d-lg-flex">
+        <li><a class="nav-item-link active" href="#home">Home</a></li>
+        <li><a class="nav-item-link" href="#about">Studio</a></li>
+        <li><a class="nav-item-link" href="#toolkit">Toolkit</a></li>
+        <li><a class="nav-item-link" href="#lab">Games & Apps</a></li>
+        <li><a class="nav-item-link" href="#web-projects">Web Apps</a></li>
+        <li><a class="nav-item-link" href="#music">Music</a></li>
+        <li><a class="nav-item-link" href="#resumes">Resumes</a></li>
+        <li><a class="nav-item-link" href="#journey">Journey</a></li>
+        <li><a class="nav-item-link" href="#contact">Say Hi</a></li>
+      </ul>
+
+      <div class="d-flex align-items-center gap-2">
+        <a href="#resumes"
+          class="btn btn-sm btn-outline-dark rounded-pill px-3 py-1 fw-bold d-none d-sm-inline-flex align-items-center gap-1"
+          style="font-size: 0.78rem;">
+          <i class="bi bi-file-earmark-person"></i> CVs
+        </a>
+        <button class="btn btn-sm d-lg-none p-1 border-0" id="mobile-menu-toggle" aria-label="Toggle navigation">
+          <i class="bi bi-list fs-4"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Menu -->
+    <div class="mobile-nav-drawer" id="mobile-nav-drawer">
+      <a class="mobile-nav-link active" href="#home"><i class="bi bi-house"></i> Home</a>
+      <a class="mobile-nav-link" href="#about"><i class="bi bi-compass"></i> Studio</a>
+      <a class="mobile-nav-link" href="#toolkit"><i class="bi bi-cpu"></i> Toolkit</a>
+      <a class="mobile-nav-link" href="#lab"><i class="bi bi-controller"></i> Games & Apps</a>
+      <a class="mobile-nav-link" href="#web-projects"><i class="bi bi-window-stack"></i> Web Apps</a>
+      <a class="mobile-nav-link" href="#music"><i class="bi bi-music-note-beamed"></i> Music Lounge</a>
+      <a class="mobile-nav-link" href="#resumes"><i class="bi bi-file-earmark-person"></i> Resumes / CV</a>
+      <a class="mobile-nav-link" href="#journey"><i class="bi bi-journal-text"></i> Journey</a>
+      <a class="mobile-nav-link" href="#contact"><i class="bi bi-chat-heart"></i> Say Hi</a>
+    </div>
+  </header>
+
+  <!-- Hero Section (Human & Interactive) -->
+  <section id="home" class="hero-indie">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <!-- Hero Intro Text -->
+        <div class="col-lg-6 reveal">
+          <!-- <div class="hero-tag-badge">
+            <i class="bi bi-controller text-primary"></i> Godot 4 & Gameplay Systems Developer
+          </div> -->
+
+          <h1 class="hero-main-title">
+            Hey, I'm <span class="highlight-pen">Zaul</span>.
+          </h1>
+
+          <div class="hero-roles-pills">
+            <span class="role-pill role-pill-game"><i class="bi bi-controller"></i> Game Development</span>
+            <span class="role-pill role-pill-music"><i class="bi bi-soundwave"></i> Sound Engineering</span>
+            <span class="role-pill role-pill-music2"><i class="bi bi-music-note-beamed"></i>Music Producer</span>
+            <span class="role-pill role-pill-web"><i class="bi bi-code-slash"></i> Full-Stack & APIs</span>
+            <span class="role-pill role-pill-edu"><i class="bi bi-mortarboard"></i> Programming Instructor</span>
+          </div>
+
+          <p class="hero-bio-lead">
+            2D/3D game developer and hybrid designer-programmer specializing in Godot 4, Android builds, and GDScript.
+            Building responsive character controllers, state machines, enemy AI, Firebase cloud sync, and full-stack web
+            backends.
+          </p>
+
+          <div class="d-flex flex-wrap gap-3 mb-4">
+            <a href="#lab" class="btn-indie-primary">
+              <i class="bi bi-controller"></i> Explore Games & Apps
+            </a>
+            <a href="#web-projects" class="btn-indie-secondary">
+              <i class="bi bi-window-stack"></i> Web Projects
+            </a>
+            <a href="#resumes" class="btn-indie-secondary">
+              <i class="bi bi-file-earmark-text"></i> View CVs
+            </a>
+          </div>
+
+          <!-- Personal Philosophy / Words to Live By -->
+          <div class="hero-mindset-wrap pt-3">
+            <div class="mindset-label">
+              <i class="bi bi-chat-square-quote-fill text-warning"></i> <span>Words to Live By</span>
+            </div>
+            <div class="mindset-quotes-stack">
+              <div class="mindset-quote-item">
+                <i class="bi bi-quote quote-icon"></i>
+                <span class="quote-text">"Creative is in the mind, you better relax to make it work."</span>
+              </div>
+              <div class="mindset-quote-item">
+                <i class="bi bi-quote quote-icon"></i>
+                <span class="quote-text">"If you put rules and limits on art, it's not art anymore—it's just following
+                  instructions."</span>
+              </div>
+              <div class="mindset-quote-item highlight-bear">
+                <i class="bi bi-lightning-charge-fill text-warning"></i>
+                <span class="quote-text"><strong>"IMPROVISE, ADAPT, OVERCOME."</strong> <span
+                    class="text-muted small ms-1">— Bear Grylls</span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Right: Interactive 2D Physics Simulator -->
+        <div class="col-lg-6 reveal">
+          <div class="hero-sandbox-card">
+            <div class="sandbox-header">
+              <div class="sandbox-title">
+                <i class="bi bi-joystick text-primary"></i> Godot 2D Physics Sandbox
+              </div>
+              <div class="sandbox-tabs">
+                <button class="sandbox-tab-btn active" id="tab-sim">Play Test</button>
+                <button class="sandbox-tab-btn" id="tab-code">View GDScript</button>
+              </div>
+            </div>
+
+            <!-- Canvas Simulator View -->
+            <div class="sandbox-canvas-area" id="sandbox-canvas">
+              <div class="sandbox-telemetry" id="sandbox-telemetry">
+                <div><strong>State:</strong> <span style="color: #4f46e5;">ON_FLOOR</span></div>
+                <div><strong>pos:</strong> (50, 20)</div>
+                <div><strong>coyote_timer:</strong> 0.15s</div>
+                <div><strong>buffer:</strong> 0.00s</div>
+              </div>
+
+              <!-- Moving Platform -->
+              <div class="physics-platform"></div>
+
+              <!-- Character Box -->
+              <div class="physics-character" id="physics-char">👾</div>
+
+              <!-- Floor Ground -->
+              <div class="physics-floor"></div>
+            </div>
+
+            <!-- GDScript Code View (Hidden by default) -->
+            <div id="sandbox-code"
+              style="display: none; padding: 20px; background: #ffffff; min-height: 250px; font-family: var(--font-mono); font-size: 0.78rem; overflow-x: auto;">
+              <pre style="margin: 0; color: #334155;">
+<span style="color: #d946ef; font-weight: bold;">extends</span> CharacterBody2D
+
+<span style="color: #d946ef; font-weight: bold;">const</span> SPEED = 300.0
+<span style="color: #d946ef; font-weight: bold;">const</span> JUMP_VELOCITY = -400.0
+<span style="color: #94a3b8;"># Coyote time & jump buffer for game feel</span>
+<span style="color: #d946ef; font-weight: bold;">var</span> coyote_timer = 0.15
+
+<span style="color: #4f46e5; font-weight: bold;">func</span> _physics_process(delta):
+    <span style="color: #d946ef; font-weight: bold;">if not</span> is_on_floor():
+        velocity.y += gravity * delta
+    <span style="color: #d946ef; font-weight: bold;">if</span> Input.is_action_just_pressed("jump"):
+        velocity.y = JUMP_VELOCITY
+    move_and_slide()
+</pre>
+            </div>
+
+            <!-- Interactive Controller Bar -->
+            <div class="sandbox-controls-bar" id="sandbox-controls">
+              <div class="sandbox-btn-group">
+                <button class="sandbox-action-btn" id="btn-left">◀ Left</button>
+                <button class="sandbox-action-btn jump-btn" id="btn-jump">▲ Jump (Buffer)</button>
+                <button class="sandbox-action-btn" id="btn-right">Right ▶</button>
+              </div>
+              <button class="sandbox-action-btn" id="btn-reset" title="Reset position">↺ Reset</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Studio / About Bento Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="section-indie-header">
+        <span class="section-kicker"><i class="bi bi-controller"></i> Game Dev Philosophy</span>
+        <h2 class="section-big-title">Studio & Mechanics</h2>
+        <p class="section-subtitle-text">
+          A look into how I design game feel, write responsive engine logic in Godot 4, compose audio, and teach
+          gameplay systems.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Bento Card 1: Core Approach -->
+        <div class="col-lg-7">
+          <div class="bento-card">
+            <div class="bento-card-header">
+              <span class="bento-tag">Game Feel & Physics</span>
+              <span class="badge" style="background: #eef2ff; color: #4338ca; border: 1px solid #c7d2fe;">Godot 4 •
+                GDScript</span>
+            </div>
+            <h3 class="h4 fw-bold mb-3">Crafting Responsive Gameplay & Custom Controllers</h3>
+            <p class="text-body mb-3" style="text-align: justify;">
+              For me, making games is mostly about <b>feel</b>. I like the little <b>things</b> that make a game
+              satisfying the way a
+              character moves,
+              how an action responds, a tiny animation, a sound effect, or that extra bit of juice that makes you want
+              to do it again.
+              I spend a lot of time <b>prototyping and testing</b>, sometimes throwing away an idea completely just to
+              try
+              something else. I enjoy that process of <b>messing around</b>,
+              asking <i>“what if I tried this?”</i>, and slowly finding the thing that makes a game feel right.
+              A lot of my time in game development is honestly just <b>experimenting, researching, and trying things
+                I’ve</b>
+              <b>never done before</b>.
+
+            </p>
+            <p class="text-body mb-0" style="text-align: justify;">
+              That mindset also goes beyond games. Whether I’m building a website, making music, or working on some
+              random side project,
+              I like <b>learning by actually doing and experimenting with things</b>.
+              I don’t really want to stop at <i>“it works”</i> I want to see how far I can push an idea, what I can
+              improve,
+              and what new things I can learn along the way.
+              <b>Learning, experimenting, breaking things, and trying again</b> is probably the biggest part of how I
+              like to
+              create.
+
+            </p>
+          </div>
+        </div>
+
+        <!-- Bento Card 2: The Music & Sound Connection -->
+        <div class="col-lg-5">
+          <div class="bento-card">
+            <div class="bento-card-header">
+              <span class="bento-tag">Game Audio & Soundscapes</span>
+              <span class="badge" style="background: #fefce8; color: #854d0e; border: 1px solid #fef08a;">Audio
+                Design</span>
+            </div>
+            <h4 class="h5 fw-bold mb-2">Composing Soundtracks & Game SFX</h4>
+            <p class="small text-body mb-2">
+              Music and audio give gameplay its emotional pacing. I compose original synth ambience and design sound
+              effects that synchronize with in-game actions and UI cues.
+            </p>
+
+            <!-- Interactive Audio Cassette Tape Widget -->
+            <div class="audio-tape-widget">
+              <audio id="tape-audio" src="Assets/Dark Ambience.mp3" preload="metadata"></audio>
+
+              <div class="tape-header">
+                <span class="d-flex align-items-center gap-1">
+                  <i class="bi bi-cassette"></i> [TAPE DECK]
+                </span>
+                <span id="tape-status" class="tape-status-text">■ Ready • "Dark Ambience"</span>
+              </div>
+
+              <!-- Cassette Tape Window -->
+              <div class="tape-window">
+                <div class="tape-reels">
+                  <div class="tape-reel reel-left">
+                    <div class="reel-spokes"></div>
+                  </div>
+                  <div class="tape-middle-bridge">
+                    <div class="tape-wave-bars" id="tape-wave-bars">
+                      <span class="wave-bar"></span>
+                      <span class="wave-bar"></span>
+                      <span class="wave-bar"></span>
+                      <span class="wave-bar"></span>
+                      <span class="wave-bar"></span>
+                    </div>
+                  </div>
+                  <div class="tape-reel reel-right">
+                    <div class="reel-spokes"></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Audio Scrub & Time Tracker -->
+              <div class="tape-progress-wrap mt-3">
+                <div class="d-flex justify-content-between text-muted"
+                  style="font-family: var(--font-mono); font-size: 0.72rem; margin-bottom: 4px;">
+                  <span id="tape-current-time">0:00</span>
+                  <span id="tape-duration">--:--</span>
+                </div>
+                <input type="range" class="form-range tape-scrubber" id="tape-scrubber" min="0" max="100" value="0"
+                  step="0.1">
+              </div>
+
+              <div class="tape-controls mt-2">
+                <button class="btn-tape-play" id="btn-tape-play">
+                  <i class="bi bi-play-fill"></i> Play Track
+                </button>
+                <div class="d-flex align-items-center gap-2">
+                  <button class="btn-tape-mute" id="btn-tape-mute" title="Toggle Mute">
+                    <i class="bi bi-volume-up-fill"></i>
+                  </button>
+                  <span class="tape-format-badge">MP3 • AMBIENCE</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bento Card 3: Teaching & Mentorship -->
+        <div class="col-lg-6">
+          <div class="bento-card">
+            <div class="bento-card-header">
+              <span class="bento-tag">100+ Students Mentored</span>
+              <span class="badge" style="background: #ecfdf5; color: #065f46; border: 1px solid #a7f3d0;">Game Dev
+                Education</span>
+            </div>
+            <h4 class="h5 fw-bold mb-2">Game Programming Education & PKL Instruction</h4>
+            <p class="text-body mb-3">
+              Mentored more than 100 students through PKL technical teaching activities. I designed curriculum teaching
+              core game programming loops, 2D vector mathematics, character movement mechanics, and signal-based scene
+              structures using project-based learning.
+            </p>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge bg-white text-dark border">Godot Curriculum</span>
+              <span class="badge bg-white text-dark border">PBL Game Jams</span>
+              <span class="badge bg-white text-dark border">Logic Flow Modules</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bento Card 4: Databases & Backend -->
+        <div class="col-lg-6">
+          <div class="bento-card">
+            <div class="bento-card-header">
+              <span class="bento-tag">Game Data & Persistence</span>
+              <span class="badge" style="background: #eff6ff; color: #1e40af; border: 1px solid #bfdbfe;">State &
+                Backend</span>
+            </div>
+            <h4 class="h5 fw-bold mb-2">Save Systems, Schemas & Cloud APIs</h4>
+            <p class="text-body mb-3">
+              Strong background in data architecture for games and web tools—implementing JSON save/load systems,
+              SQLite/MySQL relational schemas for inventories and stats, and connecting Godot to Google Apps Script
+              cloud endpoints.
+            </p>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge bg-white text-dark border">JSON Save Systems</span>
+              <span class="badge bg-white text-dark border">MySQL / SQLite</span>
+              <span class="badge bg-white text-dark border">HTTPRequest Bridge</span>
+              <span class="badge bg-white text-dark border">REST APIs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Toolkit / Sticker Canvas -->
+  <section id="toolkit" class="py-5">
+    <div class="container">
+      <div class="section-indie-header">
+        <span class="section-kicker"><i class="bi bi-cpu"></i> Daily Drivers & Tools</span>
+        <h2 class="section-big-title">My Toolkit</h2>
+        <p class="section-subtitle-text">
+          Click any sticker to see personal notes and how I apply these technologies.
+        </p>
+      </div>
+
+      <!-- Tactile Sticker Board -->
+      <div class="sticker-grid reveal-stagger">
+        <div class="tech-sticker sticker-godot" data-tech="Godot 4">
+          <i class="bi bi-controller"></i> Godot 4.x
+        </div>
+        <div class="tech-sticker sticker-godot" data-tech="GDScript">
+          <i class="bi bi-file-earmark-code"></i> GDScript
+        </div>
+        <div class="tech-sticker sticker-python" data-tech="Python & FastAPI">
+          <i class="bi bi-filetype-py"></i> Python & FastAPI
+        </div>
+        <div class="tech-sticker sticker-php" data-tech="Go">
+          <i class="bi bi-cpu"></i> Go (Golang)
+        </div>
+        <div class="tech-sticker sticker-react" data-tech="React JS">
+          <i class="bi bi-braces"></i> React JS
+        </div>
+        <div class="tech-sticker sticker-react" data-tech="Vue & Vite">
+          <i class="bi bi-layers"></i> Vue & Vite
+        </div>
+        <div class="tech-sticker sticker-mysql" data-tech="MySQL & SQLite">
+          <i class="bi bi-database-check"></i> MySQL & SQLite
+        </div>
+        <div class="tech-sticker sticker-firebase" data-tech="Firebase">
+          <i class="bi bi-fire text-warning"></i> Firebase Cloud
+        </div>
+        <div class="tech-sticker sticker-supabase" data-tech="Supabase">
+          <i class="bi bi-database-fill-gear text-success"></i> Supabase
+        </div>
+        <div class="tech-sticker sticker-php" data-tech="Laravel & PHP">
+          <i class="bi bi-terminal"></i> Laravel & PHP
+        </div>
+        <div class="tech-sticker sticker-audio" data-tech="Ableton Live">
+          <i class="bi bi-soundwave text-danger"></i> Ableton Live
+        </div>
+        <div class="tech-sticker sticker-vst" data-tech="Audio VSTs">
+          <i class="bi bi-sliders text-primary"></i> Audio VSTs & Synths
+        </div>
+        <div class="tech-sticker sticker-js" data-tech="Sound Design">
+          <i class="bi bi-music-note-beamed"></i> Game Audio & SFX
+        </div>
+        <div class="tech-sticker sticker-git" data-tech="Git & GitHub">
+          <i class="bi bi-github"></i> Git & GitHub
+        </div>
+      </div>
+
+      <!-- Live Interactive Note on Click -->
+      <div class="sticker-info-box reveal">
+        <span id="sticker-note-badge" class="badge bg-dark text-white px-2 py-1"> Tip</span>
+        <span id="sticker-note-text">Click any tech sticker above to see how I use it in game development &
+          software!</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Games & Android Projects -->
+  <section id="lab" class="py-5">
+    <div class="container">
+      <div class="section-indie-header">
+        <span class="section-kicker"><i class="bi bi-controller"></i> Playable Systems & Mobile Builds</span>
+        <h2 class="section-big-title">Featured Games & Android Projects</h2>
+        <p class="section-subtitle-text">
+          Custom Godot 4 physics engines, cross-platform Android mobile builds, Firebase cloud integrations, and
+          released itch.io titles.
+        </p>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 reveal-stagger">
+        <!-- Project 1: DungeonLoop -->
+        <div class="col-lg-6 col-xl-4">
+          <div class="project-card-devlog">
+            <div class="project-cover-art">
+              <span class="project-category-sticker">🎮 Godot 4 • Dungeon</span>
+              <img src="Assets/Project ScreenShoot/DungeonLoop.png" alt="Dungeon Loop Game Screenshot"
+                class="project-cover-img" loading="lazy">
+            </div>
+            <div class="project-body">
+              <h3 class="project-devlog-title">DungeonLoop</h3>
+              <p class="project-devlog-desc">
+                An ongoing Godot 4 dungeon adventure featuring custom top-down movement mechanics, combat collision
+                response, procedural room transitions, and enemy state machines.
+              </p>
+              <div class="project-chips-list">
+                <span class="project-chip">Godot 4</span>
+                <span class="project-chip">GDScript</span>
+                <span class="project-chip">CharacterBody2D</span>
+                <span class="project-chip">State Machines</span>
+                <span class="project-chip">Physics2D</span>
+              </div>
+              <div class="project-actions">
+                <span class="small text-muted"><i class="bi bi-git"></i> Prototype</span>
+                <a href="https://github.com/Zlraul/dungeonLoop" target="_blank" class="btn-repo-link">
+                  <i class="bi bi-github"></i> View Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: FlagForrest -->
+        <div class="col-lg-6 col-xl-4">
+          <div class="project-card-devlog">
+            <div class="project-cover-art">
+              <span class="project-category-sticker">2D Platformer • Android & PC</span>
+              <img src="Assets/Project ScreenShoot/FlagForrest.png" alt="Flag Forrest Game Screenshot"
+                class="project-cover-img" loading="lazy">
+            </div>
+            <div class="project-body">
+              <h3 class="project-devlog-title">FlagForrest</h3>
+              <p class="project-devlog-desc">
+                A 2D platformer engineered for Android and PC with responsive kinematic physics, jump buffering, coyote
+                time window recovery, moving platforms, and parallax forest environments in Godot.
+              </p>
+              <div class="project-chips-list">
+                <span class="project-chip">Godot 4</span>
+                <span class="project-chip">Android Build</span>
+                <span class="project-chip">GDScript</span>
+                <span class="project-chip">Jump Buffering</span>
+                <span class="project-chip">Coyote Time</span>
+                <span class="project-chip">Parallax</span>
+              </div>
+              <div class="project-actions">
+                <span class="small text-muted"><i class="bi bi-git"></i> Solo Prototype</span>
+                <a href="https://github.com/Zlraul/FlagForest" target="_blank" class="btn-repo-link">
+                  <i class="bi bi-github"></i> View Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: ToDoListBeforeMidnight -->
+        <div class="col-lg-6 col-xl-4">
+          <div class="project-card-devlog">
+            <div class="project-cover-art">
+              <span class="project-category-sticker">Released Game • itch.io</span>
+              <img src="Assets/Project ScreenShoot/ToDoListBeforeMidnigt.png" alt="ToDoListBeforeMidnight Screenshot"
+                class="project-cover-img" loading="lazy">
+            </div>
+            <div class="project-body">
+              <h3 class="project-devlog-title">To Do List Before Midnight</h3>
+              <p class="project-devlog-desc">
+                A published horror atmospheric narrative game blending interaction mechanics, UI, flashlight, and enemy
+                detection systems built in Godot.
+              </p>
+              <div class="project-chips-list">
+                <span class="project-chip">Godot</span>
+                <span class="project-chip">Horror</span>
+                <span class="project-chip">Enemy Detection</span>
+                <span class="project-chip">Flashlight System</span>
+                <span class="project-chip">itch.io</span>
+              </div>
+              <div class="project-actions">
+                <span class="small text-success fw-bold"><i class="bi bi-check2-circle"></i> Released</span>
+                <a href="https://arifucat1.itch.io/todolistbeforemidnight" target="_blank" class="btn-repo-link"
+                  style="background: #eef2ff; color: #4338ca;">
+                  <i class="bi bi-joystick"></i> Play on itch.io
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4: Bubble Pop -->
+        <div class="col-lg-6 col-xl-4">
+          <div class="project-card-devlog">
+            <div class="project-cover-art">
+              <span class="project-category-sticker">Physics Arcade • Android</span>
+              <img src="Assets/Project ScreenShoot/bubblepop.png" alt="Bubble Pop Game Screenshot"
+                class="project-cover-img" loading="lazy">
+            </div>
+            <div class="project-body">
+              <h3 class="project-devlog-title">Bubble Pop</h3>
+              <p class="project-devlog-desc">
+                A physics-based arcade casual game created for Android featuring dynamic touch & collision interactions,
+                tweened popping effects, score counters, and responsive audio triggers.
+              </p>
+              <div class="project-chips-list">
+                <span class="project-chip">Godot 4</span>
+                <span class="project-chip">Android Build</span>
+                <span class="project-chip">RigidBody2D</span>
+                <span class="project-chip">Touch Controls</span>
+                <span class="project-chip">Tweening</span>
+                <span class="project-chip">Audio FX</span>
+              </div>
+              <div class="project-actions">
+                <span class="small text-muted"><i class="bi bi-git"></i> Open Source</span>
+                <a href="https://github.com/Zlraul" target="_blank" class="btn-repo-link">
+                  <i class="bi bi-github"></i> View Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5: Project Peminjaman (Android + Firebase) -->
+        <div class="col-lg-6 col-xl-4">
+          <div class="project-card-devlog">
+            <div class="project-cover-art">
+              <span class="project-category-sticker">Android App • Firebase Cloud</span>
+              <img src="Assets/Project ScreenShoot/Project Peminjaman.png" alt="Project Peminjaman Screenshot"
+                class="project-cover-img" loading="lazy">
+            </div>
+            <div class="project-body">
+              <h3 class="project-devlog-title">Project Peminjaman (Android App)</h3>
+              <p class="project-devlog-desc">
+                An Android mobile application built with Godot 4 utilizing Firebase Cloud for real-time backend
+                synchronization, inventory borrowing workflows, user management, and responsive mobile UI.
+              </p>
+              <div class="project-chips-list">
+                <span class="project-chip">Godot 4</span>
+                <span class="project-chip">Android App</span>
+                <span class="project-chip">Firebase Cloud</span>
+                <span class="project-chip">GDScript</span>
+                <span class="project-chip">Realtime DB</span>
+                <span class="project-chip">Mobile UI</span>
+              </div>
+              <div class="project-actions">
+                <span class="small text-muted"><i class="bi bi-git"></i> Android & Cloud</span>
+                <a href="https://github.com/Zlraul/project-peminjaman" target="_blank" class="btn-repo-link">
+                  <i class="bi bi-github"></i> View Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 6: And Many More / More To Come -->
+        <div class="col-lg-6 col-xl-4">
+          <div class="project-card-devlog project-card-more">
+            <div class="project-cover-art project-cover-more">
+              <span class="project-category-sticker">In The Lab</span>
+              <div class="more-projects-visual">
+                <div class="more-icon-pulse">
+                  <i class="bi bi-controller fs-2 text-primary"></i>
+                </div>
+                <div class="more-badge-tag mt-2">More To Come...</div>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-devlog-title">And Many More in Development</h3>
+              <p class="project-devlog-desc">
+                Actively experimenting with new 3D Godot prototypes, custom shaders, dynamic sound engines, and gameplay
+                mechanics. Always tinkering with new interactive concepts.
+              </p>
+              <div class="project-chips-list">
+                <span class="project-chip">3D Prototypes</span>
+                <span class="project-chip">Shaders</span>
+                <span class="project-chip">Audio Engine</span>
+                <span class="project-chip">Experimental</span>
+              </div>
+              <div class="project-actions">
+                <span class="small text-muted"><i class="bi bi-clock-history"></i> Ongoing Work</span>
+                <a href="https://github.com/Zlraul" target="_blank" class="btn-repo-link">
+                  <i class="bi bi-github"></i> Follow on GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEW Dedicated Section: Web Applications & Systems -->
+  <section id="web-projects" class="py-5"
+    style="background: #ffffff; border-top: 2px solid var(--text-main); border-bottom: 2px solid var(--text-main);">
+    <div class="container">
+      <div class="section-indie-header">
+        <span class="section-kicker"><i class="bi bi-window-stack"></i> Full-Stack & APIs</span>
+        <h2 class="section-big-title">Web Applications & Systems</h2>
+        <p class="section-subtitle-text">
+          Production-ready web applications, AI integrations, relational database schemas, and high-performance REST
+          APIs.
+        </p>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-2 g-4 reveal-stagger">
+        <!-- Web Project 1: ChatWeb AI -->
+        <div class="col-lg-6">
+          <div class="project-card-devlog">
+            <div class="project-cover-art" style="background: linear-gradient(135deg, #f0fdf4 0%, #ecfdf5 100%);">
+              <span class="project-category-sticker">AI Web App • Vue & Vite</span>
+              <svg viewBox="0 0 350 205" xmlns="http://www.w3.org/2000/svg">
+                <!-- Chat Window Graphic -->
+                <rect x="40" y="30" width="270" height="145" rx="14" fill="#ffffff" stroke="#059669"
+                  stroke-width="2.5" />
+                <rect x="40" y="30" width="270" height="32" rx="14" fill="#10b981" />
+                <circle cx="62" cy="46" r="5" fill="#ffffff" />
+                <circle cx="78" cy="46" r="5" fill="#a7f3d0" />
+                <circle cx="94" cy="46" r="5" fill="#a7f3d0" />
+                <text x="140" y="52" font-family="sans-serif" font-size="12" fill="#ffffff" font-weight="bold">ChatWeb
+                  AI Hub</text>
+
+                <!-- Chat Bubbles -->
+                <rect x="60" y="76" width="130" height="30" rx="10" fill="#f3f4f6" />
+                <rect x="72" y="86" width="90" height="6" rx="3" fill="#9ca3af" />
+                <rect x="72" y="96" width="60" height="5" rx="2.5" fill="#d1d5db" />
+
+                <rect x="150" y="118" width="140" height="32" rx="10" fill="#ecfdf5" stroke="#10b981"
+                  stroke-width="1.5" />
+                <rect x="165" y="128" width="105" height="6" rx="3" fill="#059669" />
+                <rect x="165" y="138" width="70" height="5" rx="2.5" fill="#34d399" />
+              </svg>
+            </div>
+            <div class="project-body">
+              <h3 class="project-devlog-title">ChatWeb (AI Engineer & Full-Stack)</h3>
+              <p class="project-devlog-desc">
+                A modern web application combining a reactive Vue 3 & Vite frontend with React components and a MySQL
+                database backend. Served as AI Engineer responsible for integrating AI application logic and server
+                endpoints.
+              </p>
+              <div class="project-chips-list">
+                <span class="project-chip">Vue 3</span>
+                <span class="project-chip">Vite</span>
+                <span class="project-chip">React</span>
+                <span class="project-chip">MySQL</span>
+                <span class="project-chip">AI Integration</span>
+                <span class="project-chip">REST API</span>
+              </div>
+              <div class="project-actions">
+                <span class="small text-muted"><i class="bi bi-cpu"></i> AI & Full-Stack</span>
+                <span class="badge bg-light text-secondary border px-2 py-1"
+                  style="font-family: var(--font-mono); font-size: 0.76rem;">
+                  <i class="bi bi-layers"></i> Prototype
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Web Project 2: TokoMusik Store App -->
+        <div class="col-lg-6">
+          <div class="project-card-devlog">
+            <div class="project-cover-art" style="background: linear-gradient(135deg, #fefce8 0%, #fffbeb 100%);">
+              <span class="project-category-sticker">Laravel Framework • MySQL</span>
+              <svg viewBox="0 0 350 205" xmlns="http://www.w3.org/2000/svg">
+                <!-- Database Cylinders -->
+                <path d="M125 50c0-10 32-10 70-10s70 0 70 10v22c0 10-32 10-70 10s-70 0-70-10V50z" fill="#ffffff"
+                  stroke="#ef4444" stroke-width="2.5" />
+                <path d="M125 82c0 10 32 10 70 10s70-0 70-10v22c0 10-32 10-70 10s-70 0-70-10V82z" fill="#ffffff"
+                  stroke="#ef4444" stroke-width="2.5" />
+                <path d="M125 114c0 10 32 10 70 10s70-0 70-10v22c0 10-32 10-70 10s-70 0-70-10V114z" fill="#ffffff"
+                  stroke="#ef4444" stroke-width="2.5" />
+                <!-- Music Icon -->
+                <path d="M70 130v-35l36-7v35" fill="none" stroke="#dc2626" stroke-width="3.5" />
+                <circle cx="58" cy="130" r="11" fill="#dc2626" />
+                <circle cx="94" cy="123" r="11" fill="#dc2626" />
+              </svg>
+            </div>
+            <div class="project-body">
+              <h3 class="project-devlog-title">TokoMusik Store App (Laravel MVC)</h3>
+              <p class="project-devlog-desc">
+                A full-featured music store web application built entirely using Laravel and MySQL. Features MVC
+                architecture,
+                relational Eloquent ORM models, migrations, authentication, product inventory management, and complete
+                CRUD workflows.
+              </p>
+              <div class="project-chips-list">
+                <span class="project-chip">Laravel</span>
+                <span class="project-chip">PHP</span>
+                <span class="project-chip">MySQL</span>
+                <span class="project-chip">Eloquent ORM</span>
+                <span class="project-chip">MVC Architecture</span>
+                <span class="project-chip">CRUD</span>
+              </div>
+              <div class="project-actions">
+                <span class="small text-muted"><i class="bi bi-layers-half"></i> Full-Stack MVC</span>
+                <span class="badge bg-light text-secondary border px-2 py-1"
+                  style="font-family: var(--font-mono); font-size: 0.76rem;">
+                  <i class="bi bi-layers"></i> Prototype
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Web Project 3: Python FastAPI & Go REST APIs -->
+        <div class="col-lg-6">
+          <div class="project-card-devlog">
+            <div class="project-cover-art" style="background: linear-gradient(135deg, #eff6ff 0%, #e0f2fe 100%);">
+              <span class="project-category-sticker">Backend APIs • Python & Go</span>
+              <svg viewBox="0 0 350 205" xmlns="http://www.w3.org/2000/svg">
+                <!-- API Endpoints Diagram -->
+                <rect x="50" y="45" width="100" height="42" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="2" />
+                <text x="65" y="70" font-family="monospace" font-size="12" fill="#2563eb" font-weight="bold">POST
+                  /api/v1</text>
+
+                <rect x="50" y="110" width="100" height="42" rx="8" fill="#ffffff" stroke="#0284c7" stroke-width="2" />
+                <text x="68" y="135" font-family="monospace" font-size="12" fill="#0284c7" font-weight="bold">GET
+                  /items</text>
+
+                <!-- Arrows & Server Node -->
+                <path d="M155 66h45" stroke="#3b82f6" stroke-width="3" stroke-dasharray="4 3" />
+                <path d="M155 131h45" stroke="#0284c7" stroke-width="3" stroke-dasharray="4 3" />
+
+                <circle cx="245" cy="98" r="40" fill="#1e3a5f" />
+                <text x="228" y="103" font-family="sans-serif" font-size="14" fill="#ffffff"
+                  font-weight="bold">API</text>
+              </svg>
+            </div>
+            <div class="project-body">
+              <h3 class="project-devlog-title">FastAPI & Go REST Microservices</h3>
+              <p class="project-devlog-desc">
+                High-performance backend services and RESTful APIs developed using Python FastAPI and Go. Implements
+                JSON data exchange, async request handling, route protection, and structured database connectivity.
+              </p>
+              <div class="project-chips-list">
+                <span class="project-chip">Python FastAPI</span>
+                <span class="project-chip">Go (Golang)</span>
+                <span class="project-chip">REST APIs</span>
+                <span class="project-chip">JSON</span>
+                <span class="project-chip">Async</span>
+                <span class="project-chip">SQLite / MySQL</span>
+              </div>
+              <div class="project-actions">
+                <span class="small text-muted"><i class="bi bi-hdd-network"></i> Backend Services</span>
+                <span class="badge bg-light text-secondary border px-2 py-1"
+                  style="font-family: var(--font-mono); font-size: 0.76rem;">
+                  <i class="bi bi-layers"></i> Prototype
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Web Project 4: React SPA Portfolio & Suite -->
+        <div class="col-lg-6">
+          <div class="project-card-devlog">
+            <div class="project-cover-art" style="background: linear-gradient(135deg, #fdf2f8 0%, #fce7f3 100%);">
+              <span class="project-category-sticker">Frontend Architecture • React</span>
+              <svg viewBox="0 0 350 205" xmlns="http://www.w3.org/2000/svg">
+                <!-- React Orbital Graphic -->
+                <circle cx="175" cy="100" r="30" fill="none" stroke="#fbcfe8" stroke-width="3" />
+                <ellipse cx="175" cy="100" rx="55" ry="20" fill="none" stroke="#db2777" stroke-width="2.5"
+                  transform="rotate(30 175 100)" />
+                <ellipse cx="175" cy="100" rx="55" ry="20" fill="none" stroke="#db2777" stroke-width="2.5"
+                  transform="rotate(-30 175 100)" />
+                <circle cx="175" cy="100" r="9" fill="#be185d" />
+              </svg>
+            </div>
+            <div class="project-body">
+              <h3 class="project-devlog-title">React Web Suite & SPA Architecture</h3>
+              <p class="project-devlog-desc">
+                Single-page application web suites built with React JS, focusing on modular component structures, state
+                management, accessible UI patterns, responsive CSS systems, and fluid animations.
+              </p>
+              <div class="project-chips-list">
+                <span class="project-chip">React JS</span>
+                <span class="project-chip">JavaScript</span>
+                <span class="project-chip">CSS System</span>
+                <span class="project-chip">SPA</span>
+                <span class="project-chip">Component Design</span>
+              </div>
+              <div class="project-actions">
+                <span class="small text-muted"><i class="bi bi-layout-text-window"></i> Frontend SPA</span>
+                <span class="badge bg-light text-secondary border px-2 py-1"
+                  style="font-family: var(--font-mono); font-size: 0.76rem;">
+                  <i class="bi bi-layers"></i> Prototype
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Music Lounge & Interactive Playlist Section -->
+  <section id="music" class="py-5"
+    style="background: #fafaf9; border-top: 2px solid var(--text-main); border-bottom: 2px solid var(--text-main);">
+    <div class="container">
+      <div class="section-indie-header">
+        <span class="section-kicker"><i class="bi bi-fire text-danger"></i> 1 Song / 1 Day Challenge • Audio
+          Productions</span>
+        <h2 class="section-big-title">Music Lounge: 1 Song, 1 Day</h2>
+        <p class="section-subtitle-text">
+          Every track in this playlist was written, produced, mixed, and completed in a single day as part of my
+          personal daily composition challenge.
+        </p>
+      </div>
+
+      <!-- 1 Song / 1 Day Challenge Spotlight Banner -->
+      <div class="music-challenge-banner reveal">
+        <div class="d-flex flex-column flex-md-row align-items-md-center gap-3">
+          <div class="challenge-icon-box">
+            <i class="bi bi-lightning-charge-fill fs-3 text-warning"></i>
+          </div>
+          <div class="flex-grow-1">
+            <div class="d-flex flex-wrap align-items-center gap-2 mb-1">
+              <span class="badge bg-danger text-white px-2 py-1"
+                style="font-family: var(--font-mono); font-size: 0.72rem;">
+                DAILY CREATIVE SPRINT
+              </span>
+              <span class="fw-bold text-dark" style="font-size: 0.98rem;">The Challenge: 1 Complete Track Every Single
+                Day</span>
+            </div>
+            <p class="small text-body mb-0" style="line-height: 1.45;">
+              No endless revisions, no overthinking. I start with an empty DAW project in the morning, experiment
+              relentlessly with synth textures, band instruments, and foley, then export the finished master before
+              midnight. That's why every track is titled after the day it was created!
+            </p>
+          </div>
+          <div class="d-flex flex-column align-items-md-end text-muted small"
+            style="font-family: var(--font-mono); font-size: 0.76rem; white-space: nowrap;">
+            <span><i class="bi bi-disc text-primary"></i> 36 Daily Releases</span>
+            <span><i class="bi bi-soundwave text-success"></i> 100% Original</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Music Player Deck & Playlist -->
+      <div class="music-deck-container reveal">
+        <div class="row g-4 align-items-stretch">
+
+          <!-- Left Column: Interactive Turntable / Jukebox Player -->
+          <div class="col-lg-5 col-xl-5">
+            <div class="music-player-card">
+              <!-- Audio Element -->
+              <audio id="playlist-audio" src="Assets/Music/Day 119.mp3" preload="metadata"></audio>
+
+              <!-- Player Top Status Header -->
+              <div class="player-deck-header">
+                <div class="d-flex align-items-center gap-2">
+                  <span class="deck-led-indicator" id="player-led"></span>
+                  <span class="deck-mode-text" id="player-status-tag">STANDBY</span>
+                </div>
+                <span class="badge bg-dark text-warning border px-2 py-1"
+                  style="font-family: var(--font-mono); font-size: 0.72rem;">
+                  <i class="bi bi-vinyl-fill"></i> HI-FI AUDIO
+                </span>
+              </div>
+
+              <!-- Spinning Vinyl / Turntable Visualizer -->
+              <div class="turntable-visual-wrap">
+                <div class="vinyl-disc-disc" id="vinyl-disc">
+                  <div class="vinyl-groove"></div>
+                  <div class="vinyl-groove groove-2"></div>
+                  <div class="vinyl-center-label">
+                    <span class="vinyl-center-dot"></span>
+                    <span class="vinyl-center-text">ZAUL</span>
+                  </div>
+                </div>
+
+                <!-- Animated Equalizer Overlay -->
+                <div class="vinyl-eq-bars" id="vinyl-eq-bars">
+                  <span class="eq-bar"></span>
+                  <span class="eq-bar"></span>
+                  <span class="eq-bar"></span>
+                  <span class="eq-bar"></span>
+                  <span class="eq-bar"></span>
+                  <span class="eq-bar"></span>
+                  <span class="eq-bar"></span>
+                </div>
+              </div>
+
+              <!-- Track Metadata Info -->
+              <div class="track-info-panel">
+                <div class="d-flex align-items-center justify-content-between mb-1">
+                  <span class="badge" id="player-genre-badge"
+                    style="background: #eef2ff; color: #4338ca; border: 1px solid #c7d2fe; font-size: 0.75rem;">
+                    Ambient Synth
+                  </span>
+                  <span class="small text-muted" id="player-track-counter" style="font-family: var(--font-mono);">
+                    Track 1 / 36
+                  </span>
+                </div>
+                <h3 class="track-playing-title" id="player-track-title">Day 119 (Dark Ambience)</h3>
+                <p class="track-playing-artist mb-2" id="player-track-artist">Atha Zaul • 1 Song 1 Day</p>
+                <p class="track-playing-desc small text-muted mb-0" id="player-track-desc">
+                  Atmospheric modular synth composition with deep sub-bass and tension-building reverb.
+                </p>
+              </div>
+
+              <!-- Scrubber & Time -->
+              <div class="player-scrubber-wrap mt-3">
+                <div class="d-flex justify-content-between text-muted"
+                  style="font-family: var(--font-mono); font-size: 0.75rem; margin-bottom: 4px;">
+                  <span id="player-current-time">0:00</span>
+                  <span id="player-total-duration">2:56</span>
+                </div>
+                <input type="range" class="form-range player-seek-bar" id="player-seek-bar" min="0" max="100" value="0"
+                  step="0.1">
+              </div>
+
+              <!-- Playback Control Buttons -->
+              <div class="player-main-controls mt-3">
+                <button class="btn-deck-control" id="btn-player-prev" title="Previous Track">
+                  <i class="bi bi-skip-start-fill"></i>
+                </button>
+
+                <button class="btn-deck-play" id="btn-player-play" title="Play Track">
+                  <i class="bi bi-play-fill" id="player-play-icon"></i>
+                </button>
+
+                <button class="btn-deck-control" id="btn-player-next" title="Next Track">
+                  <i class="bi bi-skip-end-fill"></i>
+                </button>
+
+                <button class="btn-deck-control btn-deck-toggle" id="btn-player-loop" title="Toggle Loop Track">
+                  <i class="bi bi-repeat"></i>
+                </button>
+
+                <div class="player-volume-group ms-auto d-flex align-items-center gap-1">
+                  <button class="btn-deck-control p-1 border-0 bg-transparent" id="btn-player-mute" title="Mute/Unmute">
+                    <i class="bi bi-volume-up-fill fs-6" id="player-volume-icon"></i>
+                  </button>
+                  <input type="range" class="form-range player-volume-slider" id="player-volume-slider" min="0" max="1"
+                    step="0.05" value="0.8">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Track Playlist Selector -->
+          <div class="col-lg-7 col-xl-7">
+            <div class="playlist-deck-card">
+              <div class="playlist-header">
+                <div>
+                  <h4 class="h5 fw-bold mb-1"><i class="bi bi-collection-play-fill text-primary"></i> 1 Song 1 Day
+                    Tracklist</h4>
+                  <p class="small text-muted mb-0">Select any day to stream instantly • 36 Daily Releases</p>
+                </div>
+                <span class="badge bg-white text-dark border px-2 py-1"
+                  style="font-family: var(--font-mono); font-size: 0.78rem;">
+                  <i class="bi bi-folder-fill text-warning"></i> Assets/Music/
+                </span>
+              </div>
+
+              <!-- Filter & Search Bar -->
+              <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-2">
+                <div class="playlist-filter-bar mb-0">
+                  <button class="playlist-filter-btn active" data-filter="all">All (36)</button>
+                  <button class="playlist-filter-btn" data-filter="highlight">Highlights</button>
+                  <button class="playlist-filter-btn" data-filter="ambient"> Ambient</button>
+                  <button class="playlist-filter-btn" data-filter="lofi"> Lo-Fi</button>
+                  <button class="playlist-filter-btn" data-filter="house"> House & Glitch</button>
+                  <button class="playlist-filter-btn" data-filter="band"> Band & Jungle</button>
+                </div>
+                <div>
+                  <input type="text" id="playlist-search" class="playlist-search-input"
+                    placeholder=" Find Day / Genre...">
+                </div>
+              </div>
+
+              <!-- Playlist Items List (Scrollable) -->
+              <div class="playlist-items-stack" id="playlist-container">
+                <!-- Rendered dynamically by script.js -->
+              </div>
+
+              <!-- Bottom Audio Note -->
+              <div class="playlist-footer-note mt-3">
+                <i class="bi bi-fire text-danger fs-6 flex-shrink-0"></i>
+                <span>Every track here was conceived, composed, arranged, and mastered by <strong>Atha Zaul</strong> in
+                  <strong>1 single day</strong> per track.</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resumes & Credentials Hub Section -->
+  <section id="resumes" class="py-5"
+    style="background: #f8fafc; border-top: 2px solid var(--text-main); border-bottom: 2px solid var(--text-main);">
+    <div class="container">
+      <div class="section-indie-header">
+        <span class="section-kicker"><i class="bi bi-file-earmark-person"></i> Official Credentials</span>
+        <h2 class="section-big-title">Curriculum Vitae / Resumes</h2>
+        <p class="section-subtitle-text">
+          Access or print my tailored resumes for Game Development and Full-Stack Web Development roles.
+        </p>
+      </div>
+
+      <div class="row g-4 justify-content-center reveal-stagger">
+        <!-- Resume 1: Game Developer & Designer -->
+        <div class="col-lg-6">
+          <div class="resume-hub-card">
+            <div>
+              <div class="resume-hub-badge">
+                <span class="badge"
+                  style="background: #eef2ff; color: #4338ca; border: 1px solid #c7d2fe; font-size: 0.85rem;">
+                  <i class="bi bi-controller"></i> Game Dev Track
+                </span>
+                <span class="badge bg-white text-dark border">Godot 4 • GDScript</span>
+              </div>
+              <h3 class="h4 fw-bold mb-2">Game Developer & Gameplay Programmer</h3>
+              <p class="text-body mb-3">
+                Tailored for game studios and indie teams. Highlights 1.5+ years of Godot 4 & GDScript experience,
+                character controllers, enemy AI, level design, game audio synthesis, and released game titles.
+              </p>
+              <div class="resume-highlights-list mb-4">
+                <div class="resume-highlight-item">
+                  <i class="bi bi-check-circle-fill text-success"></i>
+                  <span><strong>Current Role:</strong> Game Dev Instructor @ Koding Next Jogja</span>
+                </div>
+                <div class="resume-highlight-item">
+                  <i class="bi bi-check-circle-fill text-success"></i>
+                  <span><strong>Shipped Games:</strong> <em>To Do List Before Midnight</em> (itch.io) & GMTK Jam
+                    2026</span>
+                </div>
+                <div class="resume-highlight-item">
+                  <i class="bi bi-check-circle-fill text-success"></i>
+                  <span><strong>Core Focus:</strong> Kinematic Physics, FSM, Save/Load, JSON, SQLite, Audio FX</span>
+                </div>
+                <div class="resume-highlight-item">
+                  <i class="bi bi-check-circle-fill text-success"></i>
+                  <span><strong>Language:</strong> English — Advanced (C2 Proficiency)</span>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex flex-wrap gap-2 pt-2">
+              <a href="cv/Resume_GameDev.html" target="_blank" class="btn-indie-primary">
+                <i class="bi bi-box-arrow-up-right"></i> Open Game Dev CV
+              </a>
+              <a href="cv/Resume_GameDev.html" target="_blank" class="btn-indie-secondary">
+                <i class="bi bi-printer"></i> View & Print PDF
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Resume 2: Web & Full-Stack Developer -->
+        <div class="col-lg-6">
+          <div class="resume-hub-card">
+            <div>
+              <div class="resume-hub-badge">
+                <span class="badge"
+                  style="background: #ecfdf5; color: #065f46; border: 1px solid #a7f3d0; font-size: 0.85rem;">
+                  <i class="bi bi-code-slash"></i> Web & Full-Stack Track
+                </span>
+                <span class="badge bg-white text-dark border">Vue • React • FastAPI • Go</span>
+              </div>
+              <h3 class="h4 fw-bold mb-2">Web Developer & Backend Engineer</h3>
+              <p class="text-body mb-3">
+                Tailored for software engineering and full-stack positions. Covers responsive interfaces (React, Vue,
+                Vite), relational databases (MySQL, SQLite), and REST APIs (Python FastAPI, Go, PHP).
+              </p>
+              <div class="resume-highlights-list mb-4">
+                <div class="resume-highlight-item">
+                  <i class="bi bi-check-circle-fill text-primary"></i>
+                  <span><strong>Teaching:</strong> Programming Tutor @ Universitas Teknologi Digital Indonesia (100+
+                    students)</span>
+                </div>
+                <div class="resume-highlight-item">
+                  <i class="bi bi-check-circle-fill text-primary"></i>
+                  <span><strong>Industry Work:</strong> Sound Engineer & Web Developer @ GTOD (3 Years)</span>
+                </div>
+                <div class="resume-highlight-item">
+                  <i class="bi bi-check-circle-fill text-primary"></i>
+                  <span><strong>Stack:</strong> Python FastAPI, Go REST APIs, React, Vue, PHP, MySQL, SQLite</span>
+                </div>
+                <div class="resume-highlight-item">
+                  <i class="bi bi-check-circle-fill text-primary"></i>
+                  <span><strong>Education:</strong> Information Systems (2024 – Present)</span>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex flex-wrap gap-2 pt-2">
+              <a href="cv/Resume_WebDev.html" target="_blank" class="btn-indie-primary">
+                <i class="bi bi-box-arrow-up-right"></i> Open Web Dev CV
+              </a>
+              <a href="cv/Resume_WebDev.html" target="_blank" class="btn-indie-secondary">
+                <i class="bi bi-printer"></i> View & Print PDF
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Journey / Journal Section -->
+  <section id="journey" class="py-5">
+    <div class="container">
+      <div class="section-indie-header">
+        <span class="section-kicker"><i class="bi bi-journal-text"></i> Milestones</span>
+        <h2 class="section-big-title">The Journey & Experience</h2>
+        <p class="section-subtitle-text">
+          Real milestones from teaching students, engineering game systems, composing audio, and building software.
+        </p>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-9 col-xl-8">
+          <!-- Item 1: Koding Next -->
+          <div class="journal-item reveal">
+            <div class="journal-date-badge">
+              <span>Ongoing</span>
+            </div>
+            <div class="journal-card">
+              <div class="d-flex justify-content-between align-items-start mb-1">
+                <h4 class="h5 fw-bold mb-0">Game Development Instructor</h4>
+                <span class="badge bg-light text-dark border">Koding Next Jogja</span>
+              </div>
+              <p class="text-muted small mb-2"><i class="bi bi-geo-alt"></i> Yogyakarta • Game Education</p>
+              <p class="mb-0 text-body">
+                Teaching game programming to students under 16 using Scratch, Roblox Studio, Python Arcade, and Godot 4.
+                Guiding young developers through game mechanics, 2D physics logic, and project-based game development.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 2: UTDI Tutor & Education -->
+          <div class="journal-item reveal">
+            <div class="journal-date-badge">
+              <span>2 Years</span>
+            </div>
+            <div class="journal-card">
+              <div class="d-flex justify-content-between align-items-start mb-1">
+                <h4 class="h5 fw-bold mb-0">Programming Tutor / Instructor</h4>
+                <span class="badge bg-light text-dark border">Univ. Teknologi Digital Indonesia</span>
+              </div>
+              <p class="text-muted small mb-2"><i class="bi bi-mortarboard"></i> Information Systems (2024 – Present)
+              </p>
+              <p class="mb-0 text-body">
+                Mentored more than 100 vocational students in programming fundamentals, web development, OOP concepts,
+                and software projects using structured, hands-on curriculum.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 3: GTOD -->
+          <div class="journal-item reveal">
+            <div class="journal-date-badge">
+              <span>3 Years</span>
+            </div>
+            <div class="journal-card">
+              <div class="d-flex justify-content-between align-items-start mb-1">
+                <h4 class="h5 fw-bold mb-0">Sound Engineer & Web Developer</h4>
+                <span class="badge bg-light text-dark border">GTOD & Freelance</span>
+              </div>
+              <p class="text-muted small mb-2"><i class="bi bi-soundwave"></i> Audio Engineering • Music Production •
+                Full-Stack</p>
+              <p class="mb-0 text-body">
+                Managed end-to-end sound engineering, original music production, mixing, and mastering pipelines. Built
+                web applications and database systems tailored to creative and technical client workflows.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 4: Game Releases & Jams -->
+          <div class="journal-item reveal">
+            <div class="journal-date-badge">
+              <span>Shipped</span>
+            </div>
+            <div class="journal-card">
+              <div class="d-flex justify-content-between align-items-start mb-1">
+                <h4 class="h5 fw-bold mb-0">Game Jams & Released Titles</h4>
+                <span class="badge bg-light text-dark border">itch.io • GMTK Jam</span>
+              </div>
+              <p class="text-muted small mb-2"><i class="bi bi-trophy"></i> GMTK Game Jam 2026 • itch.io Release</p>
+              <p class="mb-0 text-body">
+                Published <em>To Do List Before Midnight</em> on itch.io. Experienced with cross-platform PC and Android
+                Godot game builds, rapid jam prototyping, and player feedback loops.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section (Postcard Style) -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 col-xl-8">
+          <div class="postcard-wrapper reveal">
+            <div class="postcard-stamp">
+              <span>POST</span>
+              <span>ID 🇮🇩</span>
+            </div>
+
+            <span class="section-kicker mb-3"><i class="bi bi-envelope-paper"></i> Open Inbox</span>
+            <h2 class="section-big-title mb-3">Let's Build Great Games & Software Together</h2>
+            <p class="lead mb-4 text-body" style="font-size: 1.05rem;">
+              Whether you have an indie game project, mechanics collaboration, full-stack web application, curriculum
+              idea, or want to discuss game audio, feel free to drop a line!
+            </p>
+
+            <div class="d-flex flex-wrap align-items-center gap-3 mb-4">
+              <a href="mailto:Ghithrif30@gmail.com" class="contact-quick-link">
+                <i class="bi bi-envelope-at-fill text-primary"></i> Ghithrif30@gmail.com
+              </a>
+              <button id="copy-email-btn" class="btn-indie-secondary py-2 px-3" style="font-size: 0.88rem;">
+                <i class="bi bi-clipboard"></i> Copy Address
+              </button>
+            </div>
+
+            <div class="social-stickers-grid">
+              <a href="https://github.com/Zlraul" target="_blank" rel="noopener noreferrer" class="social-sticker-btn">
+                <i class="bi bi-github"></i> GitHub
+              </a>
+              <a href="https://arifucat1.itch.io/todolistbeforemidnight" target="_blank" rel="noopener noreferrer"
+                class="social-sticker-btn">
+                <i class="bi bi-joystick"></i> itch.io
+              </a>
+              <a href="https://www.fiverr.com/s/YLvxx0p" target="_blank" rel="noopener noreferrer"
+                class="social-sticker-btn sticker-fiverr" title="Hire on Fiverr">
+                <i class="bi bi-briefcase-fill text-success"></i> Fiverr
+              </a>
+              <a href="cv/Resume_GameDev.html" target="_blank" class="social-sticker-btn">
+                <i class="bi bi-file-earmark-person"></i> Game Dev CV
+              </a>
+              <a href="cv/Resume_WebDev.html" target="_blank" class="social-sticker-btn">
+                <i class="bi bi-file-earmark-code"></i> Web Dev CV
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer (Dark Tone) -->
+  <footer class="footer-dark">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row align-items-center justify-content-between gap-3 mb-4">
+        <div class="footer-logo-playful">
+          <span class="footer-status-dot"></span> &lt;ZaulDev /&gt;
+        </div>
+        <div class="footer-quick-nav">
+          <a href="#home">Home</a>
+          <a href="#about">Studio</a>
+          <a href="#toolkit">Toolkit</a>
+          <a href="#lab">Games</a>
+          <a href="#web-projects">Web Apps</a>
+          <a href="#music">Music</a>
+          <a href="#resumes">Resumes</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom-line">
+        <p class="small mb-1">
+          Handcrafted with HTML, CSS, JavaScript & Bootstrap • Made with caffeine & curiosity
+        </p>
+        <p class="small mb-0">© 2026 Atha Zaul Ghithrif. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 Bundle JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom Creative Script -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
