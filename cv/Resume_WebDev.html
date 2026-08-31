@@ -8,7 +8,7 @@
 <style>
 
 @page {
-    size: Letter;
+    size: A4;
     margin: 0;
 }
 
@@ -25,12 +25,13 @@ body {
 }
 
 .top-bar {
-    max-width: 216mm;
+    max-width: 210mm;
     margin: 0 auto 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 10px;
+    gap: 10px;
 }
 
 .btn-print {
@@ -45,6 +46,19 @@ body {
     font-size: 13px;
 }
 
+.btn-dossier {
+    background: #059669;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 13px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
 .btn-back {
     color: #1e3a5f;
     text-decoration: none;
@@ -53,8 +67,8 @@ body {
 }
 
 .container {
-    width: 216mm;
-    min-height: 279.4mm;
+    width: 210mm;
+    min-height: 297mm;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 33% 67%;
@@ -250,7 +264,12 @@ p,
 
 <div class="top-bar">
     <a href="../index.html" class="btn-back">← Back to Portfolio</a>
-    <button onclick="window.print()" class="btn-print">Print / Save as PDF</button>
+    <div style="display: flex; gap: 8px;">
+        <a href="../../Portofoliopdf/webdev.html" target="_blank" class="btn-dossier">
+            ⭐ View Full A4 Web Dev Dossier (2-Page Showcase)
+        </a>
+        <button onclick="window.print()" class="btn-print">Print / Save as PDF</button>
+    </div>
 </div>
 
 <div class="container">

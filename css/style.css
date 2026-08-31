@@ -137,14 +137,14 @@ a:hover {
 }
 
 .nav-pill-container {
-  max-width: 1040px;
+  max-width: 1100px;
   margin: 0 auto;
   background: rgba(255, 255, 255, 0.88);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border: 1px solid var(--border-main);
   border-radius: 50px;
-  padding: 6px 14px;
+  padding: 5px 12px;
   box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.02);
   display: flex;
   align-items: center;
@@ -174,7 +174,7 @@ a:hover {
 .nav-links-wrap {
   display: flex;
   align-items: center;
-  gap: 2px;
+  gap: 1px;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -182,9 +182,9 @@ a:hover {
 
 .nav-item-link {
   color: var(--text-body);
-  font-size: 0.82rem;
+  font-size: 0.80rem;
   font-weight: 600;
-  padding: 5px 9px;
+  padding: 5px 8px;
   border-radius: 16px;
   transition: all 0.2s ease;
   position: relative;
@@ -1064,6 +1064,145 @@ a:hover {
   align-items: center;
   gap: 12px;
   box-shadow: var(--shadow-pop-sm);
+}
+
+/* Skills Matrix Deck (Hard Skills & Soft Skills) */
+.skills-deck-card {
+  background: #ffffff;
+  border: 2px solid var(--text-main);
+  border-radius: 20px;
+  box-shadow: var(--shadow-pop);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.2s var(--ease-spring);
+}
+
+.skills-deck-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 5px 5px 0px #18181b;
+}
+
+.skills-deck-header {
+  padding: 16px 20px;
+  border-bottom: 2px solid var(--text-main);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skills-deck-header.header-hard {
+  background: #eff6ff;
+}
+
+.skills-deck-header.header-soft {
+  background: #fefce8;
+}
+
+.skills-header-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  border: 1.5px solid var(--text-main);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.15rem;
+  box-shadow: 1.5px 1.5px 0px #18181b;
+}
+
+.skills-header-icon.icon-hard {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.skills-header-icon.icon-soft {
+  background: #fef08a;
+  color: #b45309;
+}
+
+.skills-list-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-grow: 1;
+}
+
+.skill-matrix-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px 14px;
+  background: #fafaf9;
+  border: 1.5px solid var(--border-main);
+  border-radius: 14px;
+  transition: all 0.2s var(--ease-spring);
+}
+
+.skill-matrix-row:hover {
+  background: #ffffff;
+  border-color: var(--text-main);
+  transform: translateX(4px);
+  box-shadow: 3px 3px 0px #18181b;
+}
+
+.skill-row-icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  border: 1.5px solid var(--text-main);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.skill-row-icon.icon-hard-sub {
+  background: #eff6ff;
+  color: #2563eb;
+}
+
+.skill-row-icon.icon-soft-sub {
+  background: #fef9c3;
+  color: #d97706;
+}
+
+.skill-row-content {
+  flex-grow: 1;
+}
+
+.skill-name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.92rem;
+  color: var(--text-main);
+}
+
+.skill-tag-pill {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 6px;
+  background: #e0e7ff;
+  color: #3730a3;
+  border: 1px solid #c7d2fe;
+  white-space: nowrap;
+}
+
+.skill-tag-pill.soft-pill {
+  background: #fef3c7;
+  color: #92400e;
+  border-color: #fde68a;
+}
+
+.skill-desc {
+  font-size: 0.82rem;
+  color: var(--text-body);
+  line-height: 1.42;
+  margin-bottom: 0;
 }
 
 /* Project Devlog Cards (Notebook style) */
