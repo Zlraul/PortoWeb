@@ -36,7 +36,7 @@
 
       <ul class="nav-links-wrap d-none d-lg-flex">
         <li><a class="nav-item-link active" href="#home">Home</a></li>
-        <li><a class="nav-item-link" href="#about">Studios</a></li>
+        <li><a class="nav-item-link" href="#about">Studio</a></li>
         <li><a class="nav-item-link" href="#toolkit">Toolkit</a></li>
         <li><a class="nav-item-link" href="#skills">Skills</a></li>
         <li><a class="nav-item-link" href="#lab">Games & Apps</a></li>
@@ -444,17 +444,17 @@
   </section>
 
   <!-- Skill Matrix & Competencies Section (Hard Skills & Soft Skills) -->
-  <section id="skills" class="py-5" style="background: #fafaf9; border-top: 2px solid var(--text-main); border-bottom: 2px solid var(--text-main);">
+  <section id="skills" class="py-4" style="background: #fafaf9; border-top: 2px solid var(--text-main); border-bottom: 2px solid var(--text-main);">
     <div class="container">
-      <div class="section-indie-header">
-        <span class="section-kicker"><i class="bi bi-patch-check-fill text-primary"></i> Capabilities & Strengths • Skill Matrix</span>
-        <h2 class="section-big-title">Skill Matrix & Competencies</h2>
-        <p class="section-subtitle-text">
-          A breakdown of my technical proficiencies and collaborative strengths across software engineering, game development, and problem solving.
+      <div class="section-indie-header mb-4">
+        <span class="section-kicker mb-2"><i class="bi bi-patch-check-fill text-primary"></i> Capabilities & Strengths</span>
+        <h2 class="section-big-title mb-1" style="font-size: 1.95rem;">Skill Matrix & Competencies</h2>
+        <p class="section-subtitle-text mb-0" style="font-size: 0.95rem;">
+          A concise overview of my technical capabilities and collaborative strengths.
         </p>
       </div>
 
-      <div class="row g-4 align-items-stretch reveal-stagger">
+      <div class="row g-3 align-items-stretch reveal-stagger">
         <!-- Column 1: Hard Skills -->
         <div class="col-lg-6">
           <div class="skills-deck-card h-100">
@@ -464,125 +464,95 @@
                   <i class="bi bi-cpu-fill"></i>
                 </div>
                 <div>
-                  <h3 class="h5 fw-bold mb-0">Hard Skills</h3>
-                  <span class="small text-muted">Technical Engineering & Development</span>
+                  <h3 class="h6 fw-bold mb-0">Hard Skills</h3>
+                  <span class="small text-muted" style="font-size: 0.76rem;">Technical Engineering & Development</span>
                 </div>
               </div>
-              <span class="badge bg-dark text-white px-2 py-1" style="font-family: var(--font-mono); font-size: 0.72rem;">
+              <span class="badge bg-dark text-white px-2 py-1" style="font-family: var(--font-mono); font-size: 0.70rem;">
                 8 DOMAINS
               </span>
             </div>
 
-            <div class="skills-list-stack p-3 p-md-4">
-              <!-- Skill 1 -->
-              <div class="skill-matrix-row">
-                <div class="skill-row-icon icon-hard-sub">
-                  <i class="bi bi-controller"></i>
-                </div>
-                <div class="skill-row-content">
-                  <div class="d-flex align-items-center justify-content-between flex-wrap gap-1 mb-1">
-                    <span class="skill-name">Game Development</span>
-                    <span class="skill-tag-pill">Godot 4 • Android & PC</span>
+            <div class="p-3">
+              <div class="row g-2">
+                <div class="col-sm-6">
+                  <div class="compact-skill-tile">
+                    <div class="skill-tile-icon icon-hard"><i class="bi bi-controller"></i></div>
+                    <div class="skill-tile-info">
+                      <div class="skill-tile-name">Game Development</div>
+                      <div class="skill-tile-sub">Godot 4 • Android & PC</div>
+                    </div>
                   </div>
-                  <p class="skill-desc">Gameplay loops, 2D/3D physics, character state machines, enemy AI, inventory, and cross-platform Android builds.</p>
                 </div>
-              </div>
 
-              <!-- Skill 2 -->
-              <div class="skill-matrix-row">
-                <div class="skill-row-icon icon-hard-sub">
-                  <i class="bi bi-boxes"></i>
-                </div>
-                <div class="skill-row-content">
-                  <div class="d-flex align-items-center justify-content-between flex-wrap gap-1 mb-1">
-                    <span class="skill-name">Software Development</span>
-                    <span class="skill-tag-pill">System Architecture</span>
+                <div class="col-sm-6">
+                  <div class="compact-skill-tile">
+                    <div class="skill-tile-icon icon-hard"><i class="bi bi-boxes"></i></div>
+                    <div class="skill-tile-info">
+                      <div class="skill-tile-name">Software Development</div>
+                      <div class="skill-tile-sub">Architecture & Patterns</div>
+                    </div>
                   </div>
-                  <p class="skill-desc">Object-oriented programming, modular decoupled systems, design patterns, and clean maintainable codebases.</p>
                 </div>
-              </div>
 
-              <!-- Skill 3 -->
-              <div class="skill-matrix-row">
-                <div class="skill-row-icon icon-hard-sub">
-                  <i class="bi bi-window-stack"></i>
-                </div>
-                <div class="skill-row-content">
-                  <div class="d-flex align-items-center justify-content-between flex-wrap gap-1 mb-1">
-                    <span class="skill-name">Web Development</span>
-                    <span class="skill-tag-pill">Full-Stack & APIs</span>
+                <div class="col-sm-6">
+                  <div class="compact-skill-tile">
+                    <div class="skill-tile-icon icon-hard"><i class="bi bi-window-stack"></i></div>
+                    <div class="skill-tile-info">
+                      <div class="skill-tile-name">Web Development</div>
+                      <div class="skill-tile-sub">Vue • Vite • React • Laravel</div>
+                    </div>
                   </div>
-                  <p class="skill-desc">Responsive frontend UI, Single-Page Applications, Vue, Vite, React, Laravel MVC, and RESTful service integrations.</p>
                 </div>
-              </div>
 
-              <!-- Skill 4 -->
-              <div class="skill-matrix-row">
-                <div class="skill-row-icon icon-hard-sub">
-                  <i class="bi bi-terminal"></i>
-                </div>
-                <div class="skill-row-content">
-                  <div class="d-flex align-items-center justify-content-between flex-wrap gap-1 mb-1">
-                    <span class="skill-name">Programming</span>
-                    <span class="skill-tag-pill">GDScript • Python • Go • PHP</span>
+                <div class="col-sm-6">
+                  <div class="compact-skill-tile">
+                    <div class="skill-tile-icon icon-hard"><i class="bi bi-terminal"></i></div>
+                    <div class="skill-tile-info">
+                      <div class="skill-tile-name">Programming</div>
+                      <div class="skill-tile-sub">GDScript • Python • Go • PHP</div>
+                    </div>
                   </div>
-                  <p class="skill-desc">Multi-language development, backend API scripts, game mechanics logic, and algorithm data structure optimization.</p>
                 </div>
-              </div>
 
-              <!-- Skill 5 -->
-              <div class="skill-matrix-row">
-                <div class="skill-row-icon icon-hard-sub">
-                  <i class="bi bi-database-check"></i>
-                </div>
-                <div class="skill-row-content">
-                  <div class="d-flex align-items-center justify-content-between flex-wrap gap-1 mb-1">
-                    <span class="skill-name">Database Management</span>
-                    <span class="skill-tag-pill">SQL & Cloud Firestore</span>
+                <div class="col-sm-6">
+                  <div class="compact-skill-tile">
+                    <div class="skill-tile-icon icon-hard"><i class="bi bi-database-check"></i></div>
+                    <div class="skill-tile-info">
+                      <div class="skill-tile-name">Database Management</div>
+                      <div class="skill-tile-sub">MySQL • SQLite • Firestore</div>
+                    </div>
                   </div>
-                  <p class="skill-desc">Relational schema design, MySQL, SQLite, Firebase Firestore cloud sync, Supabase PostgreSQL, and CRUD operations.</p>
                 </div>
-              </div>
 
-              <!-- Skill 6 -->
-              <div class="skill-matrix-row">
-                <div class="skill-row-icon icon-hard-sub">
-                  <i class="bi bi-graph-up-arrow"></i>
-                </div>
-                <div class="skill-row-content">
-                  <div class="d-flex align-items-center justify-content-between flex-wrap gap-1 mb-1">
-                    <span class="skill-name">Business Intelligence & Data Analysis</span>
-                    <span class="skill-tag-pill">Analytics & Insights</span>
+                <div class="col-sm-6">
+                  <div class="compact-skill-tile">
+                    <div class="skill-tile-icon icon-hard"><i class="bi bi-graph-up-arrow"></i></div>
+                    <div class="skill-tile-info">
+                      <div class="skill-tile-name">BI & Data Analysis</div>
+                      <div class="skill-tile-sub">Analytics & Insights</div>
+                    </div>
                   </div>
-                  <p class="skill-desc">Data evaluation, performance metric modeling, query analysis, and data-driven decisions to optimize user engagement.</p>
                 </div>
-              </div>
 
-              <!-- Skill 7 -->
-              <div class="skill-matrix-row">
-                <div class="skill-row-icon icon-hard-sub">
-                  <i class="bi bi-google"></i>
-                </div>
-                <div class="skill-row-content">
-                  <div class="d-flex align-items-center justify-content-between flex-wrap gap-1 mb-1">
-                    <span class="skill-name">Google Workspace</span>
-                    <span class="skill-tag-pill">Cloud Productivity</span>
+                <div class="col-sm-6">
+                  <div class="compact-skill-tile">
+                    <div class="skill-tile-icon icon-hard"><i class="bi bi-google"></i></div>
+                    <div class="skill-tile-info">
+                      <div class="skill-tile-name">Google Workspace</div>
+                      <div class="skill-tile-sub">Docs, Sheets & Cloud</div>
+                    </div>
                   </div>
-                  <p class="skill-desc">Collaborative technical documentation, spreadsheets, project roadmapping, and cloud asset management.</p>
                 </div>
-              </div>
 
-              <!-- Skill 8 -->
-              <div class="skill-matrix-row">
-                <div class="skill-row-icon icon-hard-sub">
-                  <i class="bi bi-github"></i>
-                </div>
-                <div class="skill-row-content">
-                  <div class="d-flex align-items-center justify-content-between flex-wrap gap-1 mb-1">
-                    <span class="skill-name">Git & GitHub</span>
-                    <span class="skill-tag-pill">Version Control</span>
+                <div class="col-sm-6">
+                  <div class="compact-skill-tile">
+                    <div class="skill-tile-icon icon-hard"><i class="bi bi-github"></i></div>
+                    <div class="skill-tile-info">
+                      <div class="skill-tile-name">Git & GitHub</div>
+                      <div class="skill-tile-sub">Version Control & CI</div>
+                    </div>
                   </div>
-                  <p class="skill-desc">Semantic commit hygiene, branch isolation, pull request reviews, repo maintenance, and collaborative open source.</p>
                 </div>
               </div>
             </div>
@@ -598,125 +568,95 @@
                   <i class="bi bi-lightbulb-fill"></i>
                 </div>
                 <div>
-                  <h3 class="h5 fw-bold mb-0">Soft Skills</h3>
-                  <span class="small text-muted">Collaborative Mindset & Leadership</span>
+                  <h3 class="h6 fw-bold mb-0">Soft Skills</h3>
+                  <span class="small text-muted" style="font-size: 0.76rem;">Collaborative Mindset & Leadership</span>
                 </div>
               </div>
-              <span class="badge bg-dark text-white px-2 py-1" style="font-family: var(--font-mono); font-size: 0.72rem;">
+              <span class="badge bg-dark text-white px-2 py-1" style="font-family: var(--font-mono); font-size: 0.70rem;">
                 8 STRENGTHS
               </span>
             </div>
 
-            <div class="skills-list-stack p-3 p-md-4">
-              <!-- Skill 1 -->
-              <div class="skill-matrix-row">
-                <div class="skill-row-icon icon-soft-sub">
-                  <i class="bi bi-puzzle"></i>
-                </div>
-                <div class="skill-row-content">
-                  <div class="d-flex align-items-center justify-content-between flex-wrap gap-1 mb-1">
-                    <span class="skill-name">Problem Solving</span>
-                    <span class="skill-tag-pill soft-pill">Root-Cause Debugging</span>
+            <div class="p-3">
+              <div class="row g-2">
+                <div class="col-sm-6">
+                  <div class="compact-skill-tile">
+                    <div class="skill-tile-icon icon-soft"><i class="bi bi-puzzle"></i></div>
+                    <div class="skill-tile-info">
+                      <div class="skill-tile-name">Problem Solving</div>
+                      <div class="skill-tile-sub">Root-Cause Debugging</div>
+                    </div>
                   </div>
-                  <p class="skill-desc">Deconstructing complex technical bottlenecks, physics edge-cases, and engineering robust solutions under constraints.</p>
                 </div>
-              </div>
 
-              <!-- Skill 2 -->
-              <div class="skill-matrix-row">
-                <div class="skill-row-icon icon-soft-sub">
-                  <i class="bi bi-compass"></i>
-                </div>
-                <div class="skill-row-content">
-                  <div class="d-flex align-items-center justify-content-between flex-wrap gap-1 mb-1">
-                    <span class="skill-name">Critical Thinking</span>
-                    <span class="skill-tag-pill soft-pill">System Evaluation</span>
+                <div class="col-sm-6">
+                  <div class="compact-skill-tile">
+                    <div class="skill-tile-icon icon-soft"><i class="bi bi-compass"></i></div>
+                    <div class="skill-tile-info">
+                      <div class="skill-tile-name">Critical Thinking</div>
+                      <div class="skill-tile-sub">System & UX Analysis</div>
+                    </div>
                   </div>
-                  <p class="skill-desc">Assessing gameplay feel, UI ergonomics, database query complexity trade-offs, and anticipating potential edge cases.</p>
                 </div>
-              </div>
 
-              <!-- Skill 3 -->
-              <div class="skill-matrix-row">
-                <div class="skill-row-icon icon-soft-sub">
-                  <i class="bi bi-chat-left-dots"></i>
-                </div>
-                <div class="skill-row-content">
-                  <div class="d-flex align-items-center justify-content-between flex-wrap gap-1 mb-1">
-                    <span class="skill-name">Communication</span>
-                    <span class="skill-tag-pill soft-pill">Technical & Interpersonal</span>
+                <div class="col-sm-6">
+                  <div class="compact-skill-tile">
+                    <div class="skill-tile-icon icon-soft"><i class="bi bi-chat-left-dots"></i></div>
+                    <div class="skill-tile-info">
+                      <div class="skill-tile-name">Communication</div>
+                      <div class="skill-tile-sub">Technical & Team Alignment</div>
+                    </div>
                   </div>
-                  <p class="skill-desc">Articulating complex technical concepts clearly, active listening, and cross-functional alignment between dev and design.</p>
                 </div>
-              </div>
 
-              <!-- Skill 4 -->
-              <div class="skill-matrix-row">
-                <div class="skill-row-icon icon-soft-sub">
-                  <i class="bi bi-award"></i>
-                </div>
-                <div class="skill-row-content">
-                  <div class="d-flex align-items-center justify-content-between flex-wrap gap-1 mb-1">
-                    <span class="skill-name">Leadership</span>
-                    <span class="skill-tag-pill soft-pill">Initiative & Ownership</span>
+                <div class="col-sm-6">
+                  <div class="compact-skill-tile">
+                    <div class="skill-tile-icon icon-soft"><i class="bi bi-award"></i></div>
+                    <div class="skill-tile-info">
+                      <div class="skill-tile-name">Leadership</div>
+                      <div class="skill-tile-sub">Project Ownership & Vision</div>
+                    </div>
                   </div>
-                  <p class="skill-desc">Guiding development roadmaps, maintaining project ownership, setting standards, and keeping team velocity high.</p>
                 </div>
-              </div>
 
-              <!-- Skill 5 -->
-              <div class="skill-matrix-row">
-                <div class="skill-row-icon icon-soft-sub">
-                  <i class="bi bi-people"></i>
-                </div>
-                <div class="skill-row-content">
-                  <div class="d-flex align-items-center justify-content-between flex-wrap gap-1 mb-1">
-                    <span class="skill-name">Teamwork & Collaboration</span>
-                    <span class="skill-tag-pill soft-pill">Agile Alignment</span>
+                <div class="col-sm-6">
+                  <div class="compact-skill-tile">
+                    <div class="skill-tile-icon icon-soft"><i class="bi bi-people"></i></div>
+                    <div class="skill-tile-info">
+                      <div class="skill-tile-name">Teamwork & Collab</div>
+                      <div class="skill-tile-sub">Agile Sprints & Jams</div>
+                    </div>
                   </div>
-                  <p class="skill-desc">Participating in game jams, pair programming, constructive peer code reviews, and maintaining positive team synergy.</p>
                 </div>
-              </div>
 
-              <!-- Skill 6 -->
-              <div class="skill-matrix-row">
-                <div class="skill-row-icon icon-soft-sub">
-                  <i class="bi bi-palette"></i>
-                </div>
-                <div class="skill-row-content">
-                  <div class="d-flex align-items-center justify-content-between flex-wrap gap-1 mb-1">
-                    <span class="skill-name">Creative Thinking</span>
-                    <span class="skill-tag-pill soft-pill">Unorthodox Innovation</span>
+                <div class="col-sm-6">
+                  <div class="compact-skill-tile">
+                    <div class="skill-tile-icon icon-soft"><i class="bi bi-palette"></i></div>
+                    <div class="skill-tile-info">
+                      <div class="skill-tile-name">Creative Thinking</div>
+                      <div class="skill-tile-sub">Mechanics & 1 Song 1 Day</div>
+                    </div>
                   </div>
-                  <p class="skill-desc">Conceiving original gameplay mechanics, unique aesthetics, and executing the rapid "1 Song 1 Day" music sprint discipline.</p>
                 </div>
-              </div>
 
-              <!-- Skill 7 -->
-              <div class="skill-matrix-row">
-                <div class="skill-row-icon icon-soft-sub">
-                  <i class="bi bi-lightning-charge"></i>
-                </div>
-                <div class="skill-row-content">
-                  <div class="d-flex align-items-center justify-content-between flex-wrap gap-1 mb-1">
-                    <span class="skill-name">Adaptability</span>
-                    <span class="skill-tag-pill soft-pill">Improvise & Overcome</span>
+                <div class="col-sm-6">
+                  <div class="compact-skill-tile">
+                    <div class="skill-tile-icon icon-soft"><i class="bi bi-lightning-charge"></i></div>
+                    <div class="skill-tile-info">
+                      <div class="skill-tile-name">Adaptability</div>
+                      <div class="skill-tile-sub">Improvise & Overcome</div>
+                    </div>
                   </div>
-                  <p class="skill-desc">Rapidly learning new engines, languages, and toolchains to pivot effectively across diverse project requirements.</p>
                 </div>
-              </div>
 
-              <!-- Skill 8 -->
-              <div class="skill-matrix-row">
-                <div class="skill-row-icon icon-soft-sub">
-                  <i class="bi bi-mortarboard"></i>
-                </div>
-                <div class="skill-row-content">
-                  <div class="d-flex align-items-center justify-content-between flex-wrap gap-1 mb-1">
-                    <span class="skill-name">Teaching & Mentoring</span>
-                    <span class="skill-tag-pill soft-pill">Instruction & Guidance</span>
+                <div class="col-sm-6">
+                  <div class="compact-skill-tile">
+                    <div class="skill-tile-icon icon-soft"><i class="bi bi-mortarboard"></i></div>
+                    <div class="skill-tile-info">
+                      <div class="skill-tile-name">Teaching & Mentoring</div>
+                      <div class="skill-tile-sub">100+ Students Mentored</div>
+                    </div>
                   </div>
-                  <p class="skill-desc">Taught and mentored 100+ students through PKL technical curriculum, hands-on programming labs, and logic fundamentals.</p>
                 </div>
               </div>
             </div>
